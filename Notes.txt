@@ -1,10 +1,17 @@
 App Notes
 - Simple
-	- Easy to learn = accessable - increases downloads
-	- Playable within a few minutes - increases replay value
+	- Easy to learn = accessable - ^^downloads
+	- Playable within a few minutes - ^^replay value
 - Elegent Interface
-	- "Aesthetically Pleasing" = Tumblr bait - increases downloads
+	- "Aesthetically Pleasing" = Tumblr bait - ^^downloads
 - Frustrating
-	- difficult but not too difficult - increases replay value
+	- difficult but not too difficult - ^^replay value
 - Iconic audio(i.e. Flappy birds)
 - twist on an old idea
+
+- Super Hexagon 
+	- not as popular as Flappy Birds
+	- meets all requirements
+	- possible missing requirements
+		- viral marketing (i.e. Pewdiepie?) 
+		- entertaining to watch - why not SH?
