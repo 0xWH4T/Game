@@ -1,0 +1,114 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.33440
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/20/2015 7:21:44 AM.
+Project "C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj(17,3): error MSB4019: The imported project "C:\Microsoft.Cpp.Default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+Done Building Project "C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+  C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj(17,3): error MSB4019: The imported project "C:\Microsoft.Cpp.Default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.35
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: g++ 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.33440
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/20/2015 7:21:44 AM.
+Project "C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj(17,3): error MSB4019: The imported project "C:\Microsoft.Cpp.Default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+Done Building Project "C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+  C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj(17,3): error MSB4019: The imported project "C:\Microsoft.Cpp.Default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.02
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++: fatal error: no input files
+compilation terminated.
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler:  
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.33440
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/20/2015 7:23:25 AM.
+Project "C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
+C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj(17,3): error MSB4019: The imported project "C:\Microsoft.Cpp.Default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+Done Building Project "C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj" (default target) (1) ->
+  C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdC\CompilerIdC.vcxproj(17,3): error MSB4019: The imported project "C:\Microsoft.Cpp.Default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.02
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\g++.exe 
+Build flags: 
+Id flags: 
+
+The output was:
+1
+Microsoft (R) Build Engine version 4.0.30319.33440
+[Microsoft .NET Framework, version 4.0.30319.34014]
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Build started 6/20/2015 7:23:25 AM.
+Project "C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
+C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj(17,3): error MSB4019: The imported project "C:\Microsoft.Cpp.Default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+Done Building Project "C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets) -- FAILED.
+
+Build FAILED.
+
+"C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj" (default target) (1) ->
+  C:\Programming\Programs\App\CMakeFiles\3.2.2\CompilerIdCXX\CompilerIdCXX.vcxproj(17,3): error MSB4019: The imported project "C:\Microsoft.Cpp.Default.props" was not found. Confirm that the path in the <Import> declaration is correct, and that the file exists on disk.
+
+    0 Warning(s)
+    1 Error(s)
+
+Time Elapsed 00:00:00.02
+
+
+Checking whether the CXX compiler is IAR using "" did not match "IAR .+ Compiler":
+g++.exe: fatal error: no input files
+compilation terminated.
