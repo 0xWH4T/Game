@@ -15,3 +15,12 @@ App Notes
 	- possible missing requirements
 		- viral marketing (i.e. Pewdiepie?) 
 		- entertaining to watch - why not SH?
+
+Input Possibilities
+	- Tap/Double Tap
+		- time
+		- space
+	- Swipe
+		- time 
+		- space 
+		- vector(direction/velocity)
