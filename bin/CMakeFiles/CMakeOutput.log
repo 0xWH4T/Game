@@ -1,0 +1,92 @@
+Determining if files pthread.h exist passed with the following output:
+Change Dir: C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Programming/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64/bin/mingw32-make.exe" "cmTryCompileExec637441156/fast"
+mingw32-make.exe[1]: Entering directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+C:/Programming/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec637441156.dir\build.make CMakeFiles/cmTryCompileExec637441156.dir/build
+mingw32-make.exe[2]: Entering directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report C:\Programming\Programs\App\bin\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec637441156.dir/CheckIncludeFiles.c.obj
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec637441156.dir\CheckIncludeFiles.c.obj   -c C:\Programming\Programs\App\bin\CMakeFiles\CMakeTmp\CheckIncludeFiles.c
+Linking C executable cmTryCompileExec637441156.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec637441156.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec637441156.dir/objects.a
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\ar.exe cr CMakeFiles\cmTryCompileExec637441156.dir/objects.a @CMakeFiles\cmTryCompileExec637441156.dir\objects1.rsp
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTryCompileExec637441156.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec637441156.exe -Wl,--out-implib,libcmTryCompileExec637441156.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTryCompileExec637441156.dir\linklibs.rsp
+mingw32-make.exe[2]: Leaving directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe[1]: Leaving directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Programming/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64/bin/mingw32-make.exe" "cmTryCompileExec488500514/fast"
+mingw32-make.exe[1]: Entering directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+C:/Programming/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec488500514.dir\build.make CMakeFiles/cmTryCompileExec488500514.dir/build
+mingw32-make.exe[2]: Entering directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report C:\Programming\Programs\App\bin\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec488500514.dir/CheckSymbolExists.c.obj
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\gcc.exe    -o CMakeFiles\cmTryCompileExec488500514.dir\CheckSymbolExists.c.obj   -c C:\Programming\Programs\App\bin\CMakeFiles\CMakeTmp\CheckSymbolExists.c
+Linking C executable cmTryCompileExec488500514.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec488500514.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec488500514.dir/objects.a
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\ar.exe cr CMakeFiles\cmTryCompileExec488500514.dir/objects.a @CMakeFiles\cmTryCompileExec488500514.dir\objects1.rsp
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\gcc.exe       -Wl,--whole-archive CMakeFiles\cmTryCompileExec488500514.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec488500514.exe -Wl,--out-implib,libcmTryCompileExec488500514.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTryCompileExec488500514.dir\linklibs.rsp
+mingw32-make.exe[2]: Leaving directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe[1]: Leaving directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+
+File C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test _GLFW_HAS_ASLR succeded with the following output:
+Change Dir: C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Programming/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64/bin/mingw32-make.exe" "cmTryCompileExec148199045/fast"
+mingw32-make.exe[1]: Entering directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+C:/Programming/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec148199045.dir\build.make CMakeFiles/cmTryCompileExec148199045.dir/build
+mingw32-make.exe[2]: Entering directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report C:\Programming\Programs\App\bin\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec148199045.dir/src.c.obj
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\gcc.exe   -D_GLFW_HAS_ASLR -Wl,--dynamicbase   -o CMakeFiles\cmTryCompileExec148199045.dir\src.c.obj   -c C:\Programming\Programs\App\bin\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTryCompileExec148199045.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec148199045.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec148199045.dir/objects.a
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\ar.exe cr CMakeFiles\cmTryCompileExec148199045.dir/objects.a @CMakeFiles\cmTryCompileExec148199045.dir\objects1.rsp
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\gcc.exe   -D_GLFW_HAS_ASLR -Wl,--dynamicbase    -Wl,--whole-archive CMakeFiles\cmTryCompileExec148199045.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec148199045.exe -Wl,--out-implib,libcmTryCompileExec148199045.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTryCompileExec148199045.dir\linklibs.rsp
+mingw32-make.exe[2]: Leaving directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe[1]: Leaving directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test _GLFW_HAS_64ASLR succeded with the following output:
+Change Dir: C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp
+
+Run Build Command:"C:/Programming/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64/bin/mingw32-make.exe" "cmTryCompileExec1538958845/fast"
+mingw32-make.exe[1]: Entering directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+C:/Programming/mingw-w64/x86_64-5.1.0-posix-seh-rt_v4-rev0/mingw64/bin/mingw32-make.exe -f CMakeFiles\cmTryCompileExec1538958845.dir\build.make CMakeFiles/cmTryCompileExec1538958845.dir/build
+mingw32-make.exe[2]: Entering directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_progress_report C:\Programming\Programs\App\bin\CMakeFiles\CMakeTmp\CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1538958845.dir/src.c.obj
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va   -o CMakeFiles\cmTryCompileExec1538958845.dir\src.c.obj   -c C:\Programming\Programs\App\bin\CMakeFiles\CMakeTmp\src.c
+Linking C executable cmTryCompileExec1538958845.exe
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTryCompileExec1538958845.dir\link.txt --verbose=1
+"C:\Program Files (x86)\CMake\bin\cmake.exe" -E remove -f CMakeFiles\cmTryCompileExec1538958845.dir/objects.a
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\ar.exe cr CMakeFiles\cmTryCompileExec1538958845.dir/objects.a @CMakeFiles\cmTryCompileExec1538958845.dir\objects1.rsp
+C:\Programming\mingw-w64\x86_64-5.1.0-posix-seh-rt_v4-rev0\mingw64\bin\gcc.exe   -D_GLFW_HAS_64ASLR -Wl,--high-entropy-va    -Wl,--whole-archive CMakeFiles\cmTryCompileExec1538958845.dir/objects.a -Wl,--no-whole-archive  -o cmTryCompileExec1538958845.exe -Wl,--out-implib,libcmTryCompileExec1538958845.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTryCompileExec1538958845.dir\linklibs.rsp
+mingw32-make.exe[2]: Leaving directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+mingw32-make.exe[1]: Leaving directory 'C:/Programming/Programs/App/bin/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
