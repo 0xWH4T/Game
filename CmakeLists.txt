@@ -1,19 +1,19 @@
 cmake_minimum_required(VERSION 3.2)
-project(appproject)
+project(app)
 
 #set output folder **variables NOT arbitrary**
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
-set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_PATH})
+set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/libs)
 
 #include glfw src tree
-add_subdirectory(${PROJECT_SOURCE_DIR}/glfw-master) 
+#add_subdirectory(${PROJECT_SOURCE_DIR}/glfw-master) 
 include_directories(${PROJECT_SOURCE_DIR}/glfw-master/include)                                                      
 
 include_directories("${PROJECT_SOURCE_DIR}")      
 
 add_executable(main ${PROJECT_SOURCE_DIR}/src/main.cpp)
-target_link_libraries(main glfw ${GLFW_LIBRARIES})
+target_link_libraries(main glfw3 ${GLFW_LIBRARIES})
 
 #target_link_libraries(main ${PROJECT_SOURCE_DIR}/lib/glfw3.dll)
 #target_link_libraries(main ${PROJECT_SOURCE_DIR}/lib/glfw3.a)
