@@ -4,17 +4,15 @@ project(app)
 #set output folder **variables NOT arbitrary**
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/bin)
 set(EXECUTABLE_OUTPUT_PATH ${CMAKE_BINARY_DIR})
-set(LIBRARY_OUTPUT_PATH ${CMAKE_BINARY_DIR}/libs)
+set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)
 
-#include glfw src tree
-#add_subdirectory(${PROJECT_SOURCE_DIR}/glfw-master) 
+add_library(draw SHARED ${PROJECT_SOURCE_DIR}/src/draw.h)
+set_target_properties(draw PROPERTIES LINKER_LANGUAGE CXX)
+
 include_directories(${PROJECT_SOURCE_DIR}/glfw-master/include)                                                      
 
 include_directories("${PROJECT_SOURCE_DIR}")      
 
 add_executable(main ${PROJECT_SOURCE_DIR}/src/main.cpp)
 target_link_libraries(main glfw3 ${GLFW_LIBRARIES})
-
-#target_link_libraries(main ${PROJECT_SOURCE_DIR}/lib/glfw3.dll)
-#target_link_libraries(main ${PROJECT_SOURCE_DIR}/lib/glfw3.a)
-#target_link_libraries(main ${PROJECT_SOURCE_DIR}/lib/glfw3dll.a)
+target_link_libraries(main draw)
