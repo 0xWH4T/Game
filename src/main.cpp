@@ -36,7 +36,7 @@ int main(int argc, char** argv)
 		glLoadIdentity();
 		glOrtho(0.0, 10.0, 0.0, 10.0, -1.0, 1.0);
 
-		Quad();
+		Draw::Quad(0.0, 0.0, 1.0, 1.0, 1.0, 0.0, 0.0, 1.0, 255, 255, 255);
 		
 		glfwSwapBuffers(window);
 		glfwPollEvents();
